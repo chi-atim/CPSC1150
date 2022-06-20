@@ -6,13 +6,10 @@ Problem Description:
 Write a java program which displays some information about you.
 When your program is executed the following should be displayed: 
 
-***************************************************
-*                                                 *
-*   Name: your name                               *
-*   Students Number: your students number         * 
-*   Program: Program you're in                    * 
-*                                                 *
-***************************************************       
+
+•	Name: your name
+•	Students Number: your students number
+•	Program: Program you're in
  
 You need to do the followings:
 •	create a file called MyInformation.java 
