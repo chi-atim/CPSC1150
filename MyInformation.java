@@ -12,7 +12,7 @@ public class MyInformation
       //Displays "Student Number"
       System.out.println("*  Student Number: 100320919                   *");
       //Displays "The program you are in"
-      System.out.println("*  Computer Science student                    *");
+      System.out.println("*  Program: Computer Science                   *");
       System.out.println("************************************************");
    }
 }
