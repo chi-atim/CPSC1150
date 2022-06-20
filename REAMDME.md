@@ -10,7 +10,7 @@ When your program is executed the following should be displayed:
 *                                                 *
 *   Name: your name                               *
 *   Students Number: your students number         * 
-*   Courses: List of the courses you are taking   * 
+*   Program: Program you're in                    * 
 *                                                 *
 ***************************************************       
  
