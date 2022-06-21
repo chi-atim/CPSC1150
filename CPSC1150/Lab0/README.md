@@ -1,4 +1,4 @@
-Lab 0
+### Lab 0
 
 Goals: Writing Java code 
 
