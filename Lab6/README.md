@@ -23,7 +23,7 @@ For example, 22/10/1999 has occurred on Friday so the zellers(1999, 10, 22) retu
           0.3	Let StartMonth, StartYear, and LeapFactor be three integer variables used in the calculation
         
 	
-	Start
+          Start
           1.  IF MONTH < 3  
 		1.1 StartMonth = 0
 		1.2 StartYear   = YEAR – 1 
@@ -38,10 +38,9 @@ For example, 22/10/1999 has occurred on Friday so the zellers(1999, 10, 22) retu
 
  
 
-
-
-Day == 1, month == 1, year == userInput
-
- 2 methods
--zellers
+Day == 1, month == 1, year == userInput  
+  
+  
+2 methods  
+-zellers  
 -dayOfWeek
