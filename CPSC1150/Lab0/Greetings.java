@@ -1,9 +1,11 @@
+package CPSC1150.Lab0;
+
 /**
 *Greetings App class implements an application that
 *displays "Hello World!" and My Informations to the standard output.
 */
 
-public class MyInformation
+public class Greetings
 {
    public static void main(String[]args)
    {

@@ -1,16 +1,18 @@
+package CPSC1150.Lab2;
+
 import java.util.Scanner;
 
 public class DivisibleNumbers
 {
    public static void main(String[] args)
    {
-      Scanner input = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
       int num1, num2;
       
       System.out.print("Enter a positive integer number: ");
-      num1 = input.nextInt();
+      num1 = scanner.nextInt();
       System.out.print("Enter a positive integer number: ");
-      num2 = input.nextInt();
+      num2 = scanner.nextInt();
      
       if (num1 < 0 || num2 < 0)
       {
@@ -24,12 +26,14 @@ public class DivisibleNumbers
       
       if (num1 % num2 != 0)
       {
-            System.out.println(num1 + " is not divisible by "+ num2);
+         System.out.println(num1 + " is not divisible by "+ num2);
       }
       else
       {
          System.out.println(num1 + " is divisible by " + num2);
       }
+
+      scanner.close();
       
    }
 }

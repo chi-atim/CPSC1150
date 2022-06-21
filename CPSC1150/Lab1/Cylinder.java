@@ -1,3 +1,5 @@
+package CPSC1150.Lab1;
+
 import java.util.Scanner;
 
 public class Cylinder 
@@ -5,7 +7,7 @@ public class Cylinder
    public static void main(String[] args)
    {
       // Create a Scanner object
-      Scanner input = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in);
       
       // Prompt the user to enter a radius and a length
       System.out.print("Enter the radius of a cylinder: ");
@@ -19,5 +21,7 @@ public class Cylinder
       
       // Display results
       System.out.println("The volume of a cylinder is " + volume);
+
+      scanner.close();
    }
 }
