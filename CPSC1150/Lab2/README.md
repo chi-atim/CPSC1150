@@ -1,4 +1,4 @@
-Lab 2</br>
+### Lab 2
 
 Write a program that reads in two positive integer numbers.</br>
 Your program should display if the first number is divisible by the second number or not.</br>
