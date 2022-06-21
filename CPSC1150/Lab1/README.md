@@ -1,4 +1,4 @@
-Lab 1
+### Lab 1
 
 Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formula:  
 	area = radius * radius * π 
