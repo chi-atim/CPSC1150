@@ -15,7 +15,8 @@ The following example shows what the user will see on the screen:
 	Enter stock price: $10.12
 	Enter number of shares: 11
 	Enter commission rate (as a percentage): 5.5
------------------------
+  
+  
 	Value of share: $111.32
 	Commission: $6.1226
 	Net proceeds: $105.1974
@@ -28,9 +29,9 @@ Notes:
 •	Submit your source code (.java file) to BrightSpace.  
 
 
-Marking Scheme:  
-[4 marks] Presentation: Organization, legibility, and readability.  
-[4 marks] Style: Descriptive identifier, indentation, bracket placement.  
-[8 marks] Correctness: Program works without bugs.  
-[4 marks] Documentation: Internal.  
+Key points:  
+Presentation: Organization, legibility, and readability.  
+Style: Descriptive identifier, indentation, bracket placement.  
+Correctness: Program works without bugs.  
+Documentation: Internal.  
 
