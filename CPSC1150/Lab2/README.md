@@ -9,7 +9,6 @@ You should display error messages in the following cases:</br>
 
 
 Here are some sample program runs:</br>
-  
 --------------------------------------
 Enter a positive integer number:  24
 Enter a positive integer number: 12
@@ -18,7 +17,7 @@ Enter a positive integer number: 12
 --------------------------------------
 </br>
 </br>
---------------------------------------  
+-------------------------------------- 
 Enter a positive integer number:  21
 Enter a positive integer number: 5
 
