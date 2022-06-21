@@ -16,15 +16,15 @@ public class DivisibleNumbers
      
       if (num1 < 0 || num2 < 0)
       {
-         System.out.println("Expecting a positive number");
+         System.out.println("Error: Expecting a positive number");
       }
      
-      if (num1 < num2)
+      else if (num1 < num2)
       {
-         System.out.println("First number must be bigger than the second number");
+         System.out.println("Error: First number must be bigger than the second number");
       }
       
-      if (num1 % num2 != 0)
+      else if (num1 % num2 != 0)
       {
          System.out.println(num1 + " is not divisible by "+ num2);
       }
