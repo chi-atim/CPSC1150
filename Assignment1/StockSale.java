@@ -1,6 +1,5 @@
 /**
 **Program Name: StockSale
-**Author: Chiemi Mita
 **This StockSale program will calculate the value of the shares, the commission and the net proceeds.
 **Date: September 16th, 2018
 */

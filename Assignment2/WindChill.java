@@ -1,6 +1,5 @@
 /**
 **Program Name: WindChill
-**Author: Chiemi Mita
 **This program will calculate the wind-chill index.
 **Date: September 22th, 2018
 */
@@ -39,7 +38,7 @@ public class WindChill {
 				// Compute the wind-chill
 				wchill = 13.112 + 0.6215 * temp - 11.37 * Math.pow(wspeed, 0.16) + 0.3961 * temp * Math.pow(wspeed, 0.16);
 				//Display the result
-				System.out.println("The wind chill index is " + (int)wchill);
+				System.out.println("\nThe wind chill index is " + (int)wchill);
 			}
 		}
 		input.close();
