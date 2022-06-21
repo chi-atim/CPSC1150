@@ -10,14 +10,9 @@ import java.util.Scanner;
 public class StockSale {
 
 	public static void main(String[] args) {
-		//Declare strings
-		String stars = "***************************************************";
-		String line = "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
 
 		// Display introduction
-		System.out.println(stars);
-		System.out.println("This program calculates the net proceeds from a sale of stock.");
-		System.out.println(line);
+		System.out.println("This program calculates the net proceeds from a sale of stock.\n");
 
 		// All numbers to be double variable
 		double price, shares, rate, value, com, net;
@@ -38,12 +33,16 @@ public class StockSale {
 		com = value * (rate/100);
 		net = value - com;
 
+		// Round numbers to 4 decimal places
+		value = (double)Math.round(value * 100000d) / 100000d;
+		com = (double)Math.round(com * 100000d) / 100000d;
+		net = (double)Math.round(net * 100000d) / 100000d;
+
 		// Display results
-		System.out.println(line);
 		System.out.println("Value of share: $" + value);
 		System.out.println("Commission: $" + com);
 		System.out.println("Net proceeds: $" + net);
-		System.out.println(stars);
+
 		
 		// Close Scanner
 		input.close();
