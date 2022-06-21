@@ -10,7 +10,7 @@ When your program is executed the following should be displayed:
 •	Program: Program you're in  
  
 You need to do the followings:  
-•	create a file called MyInformation.java   
+•	create a file called Greetings.java   
 •	write your java code in that file  
 •	compile and run your program  
 •	add some comments to your program  
