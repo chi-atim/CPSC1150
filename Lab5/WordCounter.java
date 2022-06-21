@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class WordCounter{
-   public static void main(String[] args)	{
+public class WordCounter {
+   public static void main(String[] args) {
       Scanner input = new Scanner (System.in);
       String sent;
 
