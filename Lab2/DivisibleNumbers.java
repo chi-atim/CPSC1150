@@ -1,5 +1,3 @@
-package CPSC1150.Lab2;
-
 import java.util.Scanner;
 
 public class DivisibleNumbers
