@@ -9,33 +9,5 @@ You should display error messages in the following cases:</br>
 
 
 Here are some sample program runs:</br>
---------------------------------------
-Enter a positive integer number:  24
-Enter a positive integer number: 12
+![image](https://user-images.githubusercontent.com/25395370/174756591-a51bf031-a595-45fe-8495-2e14b70bc9c2.png)
 
-	24 is divisible by 12
---------------------------------------
-</br>
-</br>
--------------------------------------- 
-Enter a positive integer number:  21
-Enter a positive integer number: 5
-
-	21 is not divisible by 5
---------------------------------------
-</br>
-</br>
---------------------------------------
-Enter a positive integer number:  -6
-Enter a positive integer number: 5
-
-	Error: Expecting a positive number
---------------------------------------
-</br>
-</br>
----------------------------------------------------------------
-Enter a positive integer number:  9
-Enter a positive integer number: 25
-
-	Error: First number must be bigger than the second number
----------------------------------------------------------------
