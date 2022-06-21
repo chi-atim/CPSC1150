@@ -18,9 +18,9 @@ For example, 22/10/1999 has occurred on Friday so the zellers(1999, 10, 22) retu
           Zeller’s Algorithm
 
           Define Terms
-          0.1	Given the YEAR, MONTH and DAY, representing a date.
-          0.2	Let DayNumber be the an integer number representing the day of the week( 0 represents Sunday, 6 represents Saturday) 
-          0.3	Let StartMonth, StartYear, and LeapFactor be three integer variables used in the calculation
+		0.1 Given the YEAR, MONTH and DAY, representing a date.
+		0.2 Let DayNumber be the an integer number representing the day of the week( 0 represents Sunday, 6 represents Saturday) 
+		0.3 Let StartMonth, StartYear, and LeapFactor be three integer variables used in the calculation
         
 	
           Start
