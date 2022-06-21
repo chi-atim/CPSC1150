@@ -8,7 +8,7 @@ public class StudentsInfo{
 		String sc, name, studentsName;
 		System.out.print("Please enter the student's name: ");
 		studentsName = input.nextLine();
-		Scanner inFile = new Scanner (new File ("classList.txt"));
+		Scanner inFile = new Scanner (new File ("Lab8/classList.txt"));
 
 		while(inFile.hasNextLine()) {
 			count1 ++;
