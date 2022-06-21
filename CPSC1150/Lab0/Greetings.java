@@ -3,7 +3,6 @@
 *displays "Hello World!" and My Informations to the standard output.
 */
 
-
 public class MyInformation
 {
    public static void main(String[]args)
