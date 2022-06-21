@@ -1,5 +1,3 @@
-package CPSC1150.Lab3;
-
 import java.util.Scanner;
 public class Triangle
 {
