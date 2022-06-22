@@ -15,10 +15,10 @@ public class StudentRecordsMenu {
 		int action;
 		do {
 			System.out.println("\nPlease enter: "
-			+ "\n1. To display a specific student’s record."
+			+ "\n1. To display a specific student's record."
 			+ "\n2. To calculate the final exam average." 
 			+ "\n3. To find a student with the highest score on the final exam."
-			+ "\n4. To copy the students’ record to another file."
+			+ "\n4. To copy the students' record to another file."
 			+ "\n5. To terminate the program.\n");
 			action = input.nextInt();
 			switch (action) {
@@ -42,6 +42,7 @@ public class StudentRecordsMenu {
 					System.out.println("Error: invalid status");
 			}
 		} while (action != 5);
+		input.close();
 	}
 
 	// Case1: studentsRecord method 
@@ -66,7 +67,10 @@ public class StudentRecordsMenu {
 				if(name.equalsIgnoreCase(studentsName)) {
 					id = line.substring(0, 8);
 					score = line.substring(line.lastIndexOf(':')+1);
-					System.out.println("\nName: " + name + "\nID: " + id + "\nFinal : " + score);
+					System.out.println("\tName: " + name);
+					System.out.println("\tID: " + id);
+					System.out.println("\tFinal: " + score);
+					
 				}
 				else {
 					count2++; // count "not a match" lines
@@ -74,7 +78,7 @@ public class StudentRecordsMenu {
 			}
 		}
 		if (count1 == count2) {
-			System.out.println("\nNo Match.");
+			System.out.println("\n\tNo Match.");
 		}
 		inFile.close();
 	}
@@ -105,7 +109,7 @@ public class StudentRecordsMenu {
 	}
 	
 	// Case3: highestScore method
-	public static void highestScore (String inFileName) throws IOException 
+	public static void highestScore (String inFileName) throws IOException {
 		String line, name, id, scoreStr;
 		String highest="";
 		int score, highestScore=0;
@@ -129,7 +133,12 @@ public class StudentRecordsMenu {
 		}
 		id = highest.substring(0, 8);
 		name = highest.substring(highest.indexOf(':')+1, highest.lastIndexOf(':'));
-		System.out.println("The student with highest score to the final exam: \nName: " + name + "\nID: " + id + "\nFinal exam score: " + highestScore);
+		System.out.println("The student with highest score to the final exam:");
+		System.out.println("\tName: " + name);
+		System.out.println("\tID: " + id);
+		System.out.println("\tFinal exam score: " + highestScore);
+		System.out.println();
+		
 
 		inFile.close();
 	}
@@ -151,6 +160,7 @@ public class StudentRecordsMenu {
 			//Print each line on output text file
 			outFile.println(line);
 		}
+
 		inFile.close();
 		outFile.close();
 	}
