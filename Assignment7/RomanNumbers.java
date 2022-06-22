@@ -17,6 +17,8 @@ public class RomanNumbers {
 			System.out.println("Error: A number must be between 1 and 3999."); // Display an error msg
 		else
 			toRoman (num);
+		
+		input.close();
 	}
 
 	// A method to change the input number to Romn number system
@@ -34,6 +36,7 @@ public class RomanNumbers {
 		String[] ones = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
 
 		//Convert each digit separately to Roman and Display
+		System.out.print("Input number: " + num + "\nRoman numeral: ");
 		System.out.println(thous[num/1000] + huns[(num/100)%10] + tens[(num/10)%10] + ones[num%10]);
 	}
 }
