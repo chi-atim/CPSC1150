@@ -1,7 +1,6 @@
 /**
 **Program Name: StockSale
 **This StockSale program will calculate the value of the shares, the commission and the net proceeds.
-**Date: September 16th, 2018
 */
 
 import java.util.Scanner;

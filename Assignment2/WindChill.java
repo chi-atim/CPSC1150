@@ -1,7 +1,6 @@
 /**
 **Program Name: WindChill
 **This program will calculate the wind-chill index.
-**Date: September 22th, 2018
 */
 
 import java.util.Scanner;
