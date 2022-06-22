@@ -24,9 +24,10 @@ public class Addition40digits {
 			}
 			display(list1, list2, sum(list1, list2));
 		}
+		input.close();
 	}
 
-	 //A method to verify user input
+	//A method to verify user input
 	public static boolean isValid (String str) {
 		int good=0;
 		if (str.length() <= 40) {
@@ -82,10 +83,10 @@ public class Addition40digits {
 		int i, j, k, x;
 		System.out.println();
 		
-		//Display the Number1
+		//Display Number1
 		for (i=0; i<result.length; i++)	{
-			if (i <gap1) {
-				System.out.print("  ");
+			if (i < gap1) {
+				System.out.print(" ");
 			}
 			else {
 				if (i%3==result.length%3 && i>gap1) {
@@ -94,13 +95,13 @@ public class Addition40digits {
 				System.out.print(list1[i-gap1]);
 			}
 		}
-		System.out.print("  +");
+		System.out.print(" +");
 		System.out.println();
 
-		//Display the Number2
+		//Display Number2
 		for (j=0; j<result.length; j++)	{
 			if (j <gap2) {
-				System.out.print("  ");
+				System.out.print(" ");
 			}
 			else{
 				if (j%3==result.length%3 && j>gap2) {
@@ -119,7 +120,7 @@ public class Addition40digits {
 		//Display the result
 		for (x=0; x<result.length; x++)	{
 			if(x==0&&result[x]==0) {
-				System.out.print(" "+result[x+1]);
+				System.out.print(result[x+1]);
 				x++;
 				continue;
 			}
