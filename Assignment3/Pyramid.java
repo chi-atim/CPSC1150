@@ -14,8 +14,8 @@ public class Pyramid {
 		// Prompt the user to enter a number
 		System.out.print("Please enter a number from 1 - 9: "); 
 		
-		// CHeck if input is an integer
-        if(input.hasNextInt()){
+		// Check if input is an integer
+        	if(input.hasNextInt()){
 			num = input.nextInt();
             
 			if (num<1 || num>9) {
@@ -36,11 +36,11 @@ public class Pyramid {
 					System.out.println();
 				}
 			}
-        }
-        else{
+		}
+		else{
 			//Display an error message for non-integer
-            System.out.println("Input is not an integer");
-        }
+			System.out.println("Input is not an integer");
+		}
 		input.close();
 	}
 }
