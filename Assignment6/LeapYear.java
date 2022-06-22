@@ -44,26 +44,26 @@ public class LeapYear {
 		} while (repeat.equalsIgnoreCase("yes"));
 
 		System.out.println("\nProgram terminates.");
+		input1.close();
+		input2.close();
+
 	}
 
 	public static boolean isLeapYear (int year) {
-		if (year % 4 == 0 && year % 100 > 0 || year % 400 ==0)
+		if (year%4 == 0 && year%100 > 0 || year%400 ==0)
 			return true;
 		return false;
 	}
 
 	public static int zellers (int year) {
-		int DayNumber, StartMonth = 0, StartYear = 0, LeapFactor;
-		int month, day;
-		month = 2; // February
-		day = 29; // 29th of February
+		int StartMonth = 0, StartYear = 0, LeapFactor, month =2, day=29; // 29th of February
 		
 		if (month < 3) {
 			StartMonth = 0;
 			StartYear = year - 1;
 		}
 		LeapFactor = (StartYear/4) - (StartYear/100) + (StartYear/400);
-		return DayNumber = ((365 * year + 31 * (month - 1) + day + LeapFactor - StartMonth)-1) % 7;
+		return ((365 * year + 31 * (month - 1) + day + LeapFactor - StartMonth)-1) % 7;
 	}
 
 	public static String dayOfWeek (int z) {
