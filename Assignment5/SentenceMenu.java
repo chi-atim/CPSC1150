@@ -1,6 +1,6 @@
 /*
 **Program Name: SentenceMenu
-** This program reads a sentence (one line of text) from the user, it then displays a menu for different tasks.
+**This program reads a sentence (one line of text) from the user, it then displays a menu for different tasks.
 */
 
 import java.util.Scanner;
@@ -16,8 +16,10 @@ public class SentenceMenu {
 		sent = sent.trim(); //Trim the blanks
 		int action;
 
+		Scanner menu = new Scanner (System.in);
+
 		do {
-			Scanner menu = new Scanner (System.in);
+			//Scanner menu = new Scanner (System.in);
 			System.out.println("\nPlease enter: "
 			+ "\n1. To display the number of words in the sentence."
 			+ "\n2. To display the number of vowel characters in the sentence." 
@@ -52,6 +54,8 @@ public class SentenceMenu {
 			}
 		} while (action != 6);
 		input.close();
+		menu.close();
+		
 	}
 
 	//Case 1: wordCounter method
